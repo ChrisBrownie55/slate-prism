@@ -150,7 +150,7 @@ function createDecoration(_ref) {
     anchorOffset: start,
     focusKey: text.key,
     focusOffset: end,
-    mark: [{ type: 'prism-token', data: { className: className } }]
+    mark: { object: 'mark', type: 'prism-token', data: { className: className } }
   };
 }
 
